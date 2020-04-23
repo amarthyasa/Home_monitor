@@ -1,0 +1,112 @@
+body {
+	margin: 0;
+	padding: 20px;
+	background-color: #999;
+	color: gold;
+	/*font: 87.5%/1.4 HelveticaNeue, "Helvetica Neue", Helvetica, Arial, sans-serif;*/
+}
+
+
+h1 {
+    font-size: 328.571%;
+    margin-bottom: 0.2em;
+    color: yellow;
+}
+
+h1.title {
+  text-align: center;
+  text-shadow: 1px 1px 2px rgba(0,0,0,0.8);
+
+}
+
+h2 {
+    font-size: 250%;
+    margin-bottom: 0.2em;
+    text-align:center;
+}
+
+h3 {
+    font-size: 150%;
+    margin-bottom: 0.2em;
+}
+
+p {
+  margin:0;
+  padding: 0 0 1em 0;
+  text-align: center;
+  color: yellow;
+}
+
+
+
+.box {
+    background-color: #ddd;
+    padding: 10px 10px 1px;
+    padding-top: 50px;
+    padding-right: 10px;
+    padding-bottom: 50px;
+    padding-left: 10px;
+    color: #444;
+    box-sizing: border-box;
+}
+
+
+.wrapper {
+  display: grid;
+  grid-template-columns: none;
+  grid-gap: 10px;
+  grid-auto-rows: minmax(50%, auto);
+}
+
+
+.temperature {
+    
+    
+    background-color: teal;
+    border-spacing: 50px;
+    margin: 10px;
+    grid-column: 1;
+    grid-row: 1;
+}
+
+.humidity {
+   
+    
+    background-color: teal;
+    border-spacing: 15px;
+    margin: 10px;
+    
+    float:right;
+    grid-column: 2;
+    grid-row: 1;
+    
+
+}
+
+.human {
+    
+    
+    background-color: teal;
+    border-spacing: 15px;
+    margin: 10px;
+    
+    grid-column: 1 ;
+    grid-row: 2;
+    
+}
+
+.smoke {
+    
+    
+    background-color: teal;
+    border-spacing: 15px;
+    margin: 10px;
+    
+    grid-column: 2;
+    grid-row: 2;
+    
+}
+
+
+
+
